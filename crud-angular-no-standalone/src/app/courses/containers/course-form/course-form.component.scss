@@ -1,0 +1,26 @@
+mat-card{
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 4em auto;
+}
+
+mat-card-header{
+  margin-bottom: 20px;
+}
+
+mat-card-actions{
+  justify-content: center;
+
+  button{
+    margin: 5px;
+  }
+}
+
+.title-table {
+  font-size: 18px;
+}
+
+.mat-form{
+  width: 100%;
+}

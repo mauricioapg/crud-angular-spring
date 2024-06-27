@@ -1,13 +1,13 @@
-package com.crud_spring.demo.dto.response;
+package com.crud_spring.demo.dto.request;
 
-public class CourseResponseDTO {
+public class CourseRequestDTO {
 
     private String name;
     private String category;
 
-    public CourseResponseDTO() {}
+    public CourseRequestDTO() {}
 
-    public CourseResponseDTO(Long id, String name, String category) {
+    public CourseRequestDTO(Long id, String name, String category) {
         this.name = name;
         this.category = category;
     }

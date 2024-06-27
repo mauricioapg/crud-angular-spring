@@ -4,11 +4,14 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { provideHttpClient } from '@angular/common/http';
 import {MatToolbarModule} from '@angular/material/toolbar';
+// import { SuccessDialogComponent } from './components/success-dialog/success-dialog.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    // SuccessDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -17,7 +20,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
   ],
   providers: [
     provideClientHydration(),
-    provideAnimationsAsync()
+    provideAnimationsAsync(),
+    provideHttpClient()
   ],
   bootstrap: [AppComponent]
 })

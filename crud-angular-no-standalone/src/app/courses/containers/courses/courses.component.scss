@@ -1,0 +1,35 @@
+mat-card{
+  max-width: 80%;
+  margin: 4em auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn-action-edit {
+  margin-right: 10px;
+}
+
+.btn-action-delete {
+  margin-right: 10px;
+}
+
+.title-table {
+  justify-content: space-between;
+
+  button{
+    height: 40px;
+    width: 40px;
+  }
+
+  span{
+    font-size: 18px;
+  }
+}
